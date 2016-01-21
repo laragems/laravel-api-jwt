@@ -26,7 +26,7 @@ Before you start, make sure that you have:
 #!bash
 # Get the project
 mkdir myproject && cd myproject
-git clone https://puiumarius@bitbucket.org/puiumarius/laravel-api-jwt.git .
+git clone https://github.com/laragems/laravel-api-jwt.git .
 
 # Install required packages
 composer install
