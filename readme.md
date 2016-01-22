@@ -50,7 +50,7 @@ php artisan serve
 
 ```
 
-Go to http://localhost:8000/ (or your Apache vhost) and voila!
+Go to [http://localhost:8000/](http://localhost:8000/) (or your Apache vhost) and voila!
 
 ## Examples and usages ##
 
@@ -138,7 +138,7 @@ Play with those routes, explore ```routes.php```, ```AuthController.php```, ```U
 
 Building an API on top of this package is very easy, just add your resources with ```auth.jwt``` middleware (as you see in ```routes.php```).
 
-## Official Documentation ##
+## Official Laravel & Tymon's JWT Authentication Documentation ##
 
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
