@@ -5,7 +5,7 @@
  */
 Route::get('/', 'HomeController@showRoutes');
 
-Route::group(['middleware' => ['api'], 'prefix' => '/v1'], function () {
+Route::group(['prefix' => '/v1'], function () {
 
     /**
      * Authenticate the user via JWT
